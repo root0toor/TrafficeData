@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #cceffdb0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.Horizon {
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  padding: 2em 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 145, 167, 0.94) 0%,
+      rgba(15, 155, 89, 0.644) 80%
+    ),
+    url("https://img.favpng.com/21/14/3/traffic-collision-bicycle-accident-png-favpng-5LF37tACm4kLHLb3kkqYMRj2L.jpg");
+  background-size: cover;
+}
+.Radar {
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  padding: 2em 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 145, 167, 0.94) 0%,
+    rgba(15, 155, 89, 0.644) 80%
+  );
+}
+
+.map-container {
+  height: 400px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.acci_head {
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  padding: 2em 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(5, 9, 10, 0.705) 10%,
+      rgba(10, 159, 196, 0.589) 80%
+    ),
+    url("https://www.pngall.com/wp-content/uploads/5/Vector-Car-Accident-PNG-Image.png");
+  background-size: contain;
+}
